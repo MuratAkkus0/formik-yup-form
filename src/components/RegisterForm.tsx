@@ -21,7 +21,6 @@ function RegisterForm() {
   ) {
     action.resetForm();
   }
-  console.log(formik);
   return (
     <>
       <form onSubmit={formik.handleSubmit} className="form__container">
